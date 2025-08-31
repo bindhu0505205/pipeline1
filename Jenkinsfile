@@ -42,8 +42,8 @@ pipeline {
             echo 'Build, Test, Run, and JAR creation successful – artifact ready!'
         }
         failure {
-          echo 'Build failed. Please check logs.'
-        }
-    }
+            echo 'Build failed. Please check logs.'
+        }
+    }
 }
 
